@@ -33,7 +33,7 @@ public class LogNativeFragment extends NativeFragment<LogFragmentInternal> {
     public Context getContext() {
         if (mWrapper != null)
             return mWrapper;
-        mWrapper = new ContextThemeWrapper(super.getContext(), R.style.SuperuserLight);
+        mWrapper = new ContextThemeWrapper(super.getContext(), R.style.SuperuserDark);
         return mWrapper;
     }
 
